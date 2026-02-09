@@ -10,8 +10,8 @@ endif
 
 ifeq ($(OPTIMIZE), O3)
     CFLAGS += -O3
-else ifeq ($(OPTIMIZE), O2)
-    CFLAGS += -O2
+else ifeq ($(OPTIMIZE), O0)
+    CFLAGS += -O0
 endif
 
 TARGET = build/bin/kmeans
